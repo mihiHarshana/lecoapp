@@ -9,7 +9,7 @@ const InfoRequestUX = () => {
       </Col>
       <Col xs={12} md={{span: 6, offset: 5}} className="px-4">
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="px-4">
             <Form>
               <Form.Group className="mb-3" controlId="fromAccountNo">
                 <Form.Control type="text" placeholder="Account No" />
