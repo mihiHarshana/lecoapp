@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.scss';
+import LecoApp from "./LecoApp";
 
 function App() {
   return (
-    <h1>Test App</h1>
+    <LecoApp />
   );
 }
 
