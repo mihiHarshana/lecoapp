@@ -17,7 +17,7 @@ const LecoApp: React.FC = () => {
       <Col md={6} xs={12}>
         <RightPanel />
       </Col>
-      <Col xs={12}>
+      <Col xs={12} >
         <FooterUX />
       </Col>
     </Row>

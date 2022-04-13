@@ -10,7 +10,7 @@ const RightPanel = () => {
           <Image src={Image1} className="image" alt="Leco image 1 display sms and alert notification" />
         </Col>
         <Col xs={12} >
-          <Image src={Image2} className="image mt-3 mb-5" alt="Leco image 2 display android and ios" />
+          <Image src={Image2} className="image mt-3" alt="Leco image 2 display android and ios" />
         </Col>
       </Row>
     </Container>
