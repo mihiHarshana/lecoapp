@@ -3,6 +3,7 @@ import HeaderUx from "./components/header/HeaderUX";
 import FooterUX from "./components/footer/FooterUX";
 import LeftPanel from "./components/infopanels/LeftPanel";
 import {Col, Row} from "react-bootstrap";
+import RightPanel from "./components/infopanels/RightPanel";
 
 const LecoApp: React.FC = () => {
   return (
@@ -14,7 +15,7 @@ const LecoApp: React.FC = () => {
         <LeftPanel />
       </Col>
       <Col md={6} xs={12}>
-
+        <RightPanel />
       </Col>
       <Col xs={12}>
         <FooterUX />
