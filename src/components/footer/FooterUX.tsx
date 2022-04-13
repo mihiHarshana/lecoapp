@@ -3,7 +3,7 @@ import {Col, Row} from "react-bootstrap";
 
 const FooterUX: React.FC = () => {
     return (
-      <Row className="footer-color">
+      <Row className="footer-color footer-bottom">
         <Col xs={12} className="text-center font-color">
           <h3>Lanka Electricity Company (Pvt) Ltd</h3>
         </Col>

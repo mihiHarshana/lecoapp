@@ -1,0 +1,18 @@
+.right-panel {
+  .image {
+    width: 100%;
+    height:auto;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .right-panel {
+    .image {
+      width: 75%;
+      height:auto;
+    }
+  }
+
+
+}
