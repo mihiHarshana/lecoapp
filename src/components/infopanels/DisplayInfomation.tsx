@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row, Table} from "react-bootstrap";
 
-const DisplayInfomation = () => {
+const DisplayInfomation: React.FC = () => {
   return (
     <Row>
       <Col xs={12} md={{span: 8, offset: 4}} className="px-4">

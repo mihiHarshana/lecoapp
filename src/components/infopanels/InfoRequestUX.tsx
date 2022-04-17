@@ -1,7 +1,16 @@
 import React from "react";
 import {Button, Col, Form, Row} from "react-bootstrap";
 
-const InfoRequestUX = () => {
+const InfoRequestUX: React.FC = () => {
+
+  const handleOnClick = () => {
+    alert('clicked');
+
+  }
+
+  const hangleTextChange = () => {
+    alert('text change');
+  }
   return (
     <Row>
       <Col xs={12} md={{span: 9, offset: 3}} className="mt-5 px-5">
@@ -10,14 +19,14 @@ const InfoRequestUX = () => {
       <Col xs={12} md={{span: 6, offset: 5}} className="px-4">
         <Row>
           <Col xs={12} md={6} className="px-4">
-            <Form>
+            <Form >
               <Form.Group className="mb-3" controlId="fromAccountNo">
-                <Form.Control type="text" placeholder="Account No" />
+                <Form.Control type="text" placeholder="Account No" onChange={hangleTextChange} />
               </Form.Group>
             </Form>
           </Col>
           <Col xs={12} md={{span: 2 ,offset: 1}} className="text-center">
-          <Button className="btn-find-color" type="submit">
+          <Button className="btn-find-color" type="submit" onClick={handleOnClick}>
             Find
           </Button>
         </Col>
